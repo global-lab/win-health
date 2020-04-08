@@ -119,7 +119,7 @@ function make_pie(cat, data) {
         });
 
     svg
-        .attr("transform", "translate(" + width / 1.8 + ", "+height/2+")");
+        .attr("transform", "translate(" + width / 2.2 + ", "+height/2+")");
 
 
     // svg.selectAll('lines')
