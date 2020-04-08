@@ -34,11 +34,11 @@ function make_pie(cat, data) {
         .attr("width", width)
         .attr("height", height)
         .append("g")
-        .attr("transform", "translate(" + 0 + ", " + window.innerHeight / 2 + ")");
+        .attr("transform", "translate(" + 0 + ", " + window.innerHeight / 2.3 + ")");
 
 
     // let color = d3.scaleSequential(d3.interpolateCool);
-    let color = d3.scaleSequential(d3.interpolate('#ddc3bd','#b40005'));
+    let color = d3.scaleSequential(d3.interpolateHcl('#ddc3bd','#b40005'));
 
 
     let pie = d3.pie()
