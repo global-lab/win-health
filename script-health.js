@@ -34,7 +34,7 @@ function make_pie(cat, data) {
         .attr("width", width)
         .attr("height", height)
         .append("g")
-        .attr("transform", "translate(" + 0 + ", " + window.innerHeight / 2.3 + ")");
+        .attr("transform", "translate(" + window.innerHeight / 2.3 + ", " + 0 + ")");
 
 
     // let color = d3.scaleSequential(d3.interpolateCool);
