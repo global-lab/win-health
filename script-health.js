@@ -38,7 +38,7 @@ function make_pie(cat, data) {
 
 
     // let color = d3.scaleSequential(d3.interpolateCool);
-    let color = d3.scaleSequential(d3.interpolateHcl('#ddc3bd','#b40005'));
+    let color = d3.scaleSequential(d3.interpolate('#ddc3bd','#b40005'));
 
 
     let pie = d3.pie()
