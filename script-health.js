@@ -58,7 +58,7 @@ function make_pie(cat, data) {
         .append('path')
         .attr('class', 'path-' + cat)
         .attr('d', arc)
-        .attr('fill', d => color(3.2 * d.data.value / sum))
+        .attr('fill', d => color(5 * d.data.value / sum))
         .attr("stroke", "white")
         .style("stroke-width", "4px")
         .style("opacity", 0.8)
