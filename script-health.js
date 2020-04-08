@@ -4,7 +4,7 @@ window.onload = function () {
     // window.addEventListener("resize", onWindowResize());
     d3.csv('data/data-other.csv').then(d => {
         let cat_dict = {};
-        let cat = "Business";
+        let cat = "Health";
         //find sub categories for each of our categories
         let sub_categories = d.filter(e => e.Category === cat).map(e => e.Sub_Category);
         // only get the unique ones
