@@ -34,7 +34,7 @@ function make_pie(cat, data) {
         .attr("width", width)
         .attr("height", height)
         .append("g")
-        .attr("transform", "translate(" + window.innerHeight / 2.3 + ", " + 0 + ")");
+        // .attr("transform", "translate(" + window.innerHeight / 2.3 + ", " + 0 + ")");
 
 
     // let color = d3.scaleSequential(d3.interpolateCool);
@@ -119,7 +119,7 @@ function make_pie(cat, data) {
         });
 
     svg
-        .attr("transform", "translate(" + 0 + ", "+height/2+")");
+        .attr("transform", "translate(" + width / 2.2 + ", "+height/2+")");
 
 
     // svg.selectAll('lines')
